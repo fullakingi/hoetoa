@@ -171,6 +171,10 @@ small {
   font-size:11px;
 }
 
+.ten {
+    margin:0,0,0px;
+}
+
 hr {
   border:0;
   background:#e5e5e5;
