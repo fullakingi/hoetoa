@@ -97,13 +97,18 @@ pre {
   border:1px solid #e5e5e5;
   overflow-x: auto;
 }
-
+table {
+    padding: 0;
+    margin:0;
+}
 th, td {
   text-align:left;
   padding-right: 9px;
   vertical-align: top;    
 }
-
+.light {
+    font-weight: 100;
+}
 .bio {
   font-weight:400;
   padding-top: 5px;
@@ -188,6 +193,13 @@ section {
 
 small {
   font-size:11px;
+}
+.formdisclaimer {
+    width: 250px;
+    float:right;
+    margin-top: 10px;
+    text-align: right;
+    font-style: italic;
 }
 
 hr {
