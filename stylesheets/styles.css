@@ -4,7 +4,8 @@ body {
   font: 16px/1.5 "Noto Serif", Georgia, serif;
   color:#777;
   font-weight:400;
-    border-top: 4px solid #EF7C46;
+     border-top: 4px solid #EF7C46;
+    margin: 0;
 }
 
 h1, h2, h3 {
