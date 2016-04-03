@@ -1,15 +1,16 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/21px "Noto Serif", Georgia, serif;
+  font: 16px/1.5 "Noto Serif", Georgia, serif;
   color:#777;
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   margin:0 0 20px;
-  font: 14px/21px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
+  color:#282829;
 }
 
 p, ul, ol, pre, dl {
@@ -17,36 +18,27 @@ p, ul, ol, pre, dl {
 }
 
 h1 {
-  font-size:54px;
-  color:#282829;
-  line-height:42px;
-    padding-top: 10px;
+    font-size: 36px;
+    line-height: 1.5;
 }
 
 h2 {
-    color:#00afec;
-    font-size:31.5px;
-    line-height:21px;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 h3 {
-    font-size:21px;
-    color:#282829;
-}
-
-h4, h5, h6 {
-    font-size:14px;
-    color:#282829;
-    letter-spacing: 2.0;
-    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#00afec;
 }
 
 .sitename {
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-size: 31.5px;
-    line-height: 0.8;
+    font-size: 36px;
+    line-height: 0.7;
     font-weight: 900;
-    color:#222;
+    color:#282829;
     padding-top: 10px;
 }
 
