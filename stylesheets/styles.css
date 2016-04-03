@@ -1,15 +1,14 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Serif", Georgia, serif;
-  color:#727272;
+  font: 14px/21px "Noto Serif", Georgia, serif;
+  color:#777;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
   margin:0 0 20px;
-  font: 14px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/21px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
 
@@ -17,29 +16,51 @@ p, ul, ol, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
-}
-
 h1 {
-  font-size:28px;
+  font-size:54px;
+  color:#282829;
+  line-height:42px;
+    padding-top: 10px;
 }
 
 h2 {
-  color:#393939;
+    color:#00afec;
+    font-size:31.5px;
+    line-height:21px;
 }
 
-h3, h4, h5, h6 {
-  color:#494949;
+h3 {
+    font-size:21px;
+    color:#282829;
+}
+
+h4, h5, h6 {
+    font-size:14px;
+    color:#282829;
+    letter-spacing: 2.0;
+    text-transform: capitalize;
+}
+
+.sitename {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 31.5px;
+    line-height: 0.8;
+    font-weight: 900;
+    color:#222;
+    padding-top: 10px;
+}
+
+.slogan {
+    font-size:16px;
 }
 
 a {
-  color:#39c;
+  color:#EF7C46;
   text-decoration:none;
 }
 
 a:hover {
-  color:#EF7C46;
+  color:#00afec;
 }
 
 a small {
@@ -169,10 +190,6 @@ section {
 
 small {
   font-size:11px;
-}
-
-.ten {
-    margin:0,0,0px;
 }
 
 hr {
